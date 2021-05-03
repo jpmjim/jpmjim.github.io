@@ -19,3 +19,7 @@ body {
     direction: ltr;
     width: 64rem;
 }
+
+img{
+    width: 10em;
+}
