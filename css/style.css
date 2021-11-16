@@ -22,10 +22,11 @@ html {
   border-radius: 50%;;
 }
 .header__title {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 .main {
   height: 100vh;
+  /* width: 50vw; */
   background: darksalmon;
 }
 .footer {
@@ -35,4 +36,5 @@ html {
   height: 60px;
   background: deepskyblue;
   list-style: none;
+  font-size: 1.8rem;
 }
