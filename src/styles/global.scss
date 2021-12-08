@@ -1,7 +1,41 @@
-$base-color: #ff0000;
-$color: rgba(black, 0.88);
-
-body {
-  background-color: $base-color;
-  color: $color;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  font-family: 'Open Sans', sans-serif;
+}
+.header {
+  background-color: aquamarine;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(to right, #2193b0, #6dd5ed);
+}
+.header__img {
+  margin-top: 30px;
+  width: 150px;
+  border-radius: 50%;;
+}
+.header__title {
+  font-size: 3rem;
+  margin-top: 10px;
+}
+.main {
+  height: 100vh;
+  /* width: 50vw; */
+  background: darksalmon;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  background: deepskyblue;
+  list-style: none;
+  font-size: 1.8rem;
 }

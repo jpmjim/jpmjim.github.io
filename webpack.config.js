@@ -36,6 +36,14 @@ module.exports = {
           "css-loader",
           "sass-loader",
         ],
+      },
+      {
+        test: /\.(png|jpe?g|gif)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+          },
+        ],
       }
     ]
   },
@@ -52,6 +60,5 @@ module.exports = {
     allowedHosts: path.join(__dirname, 'dist'),
     compress: true,
     port: 3005,
-
   }
 }
