@@ -1,24 +1,25 @@
 import React from 'react';
 import '../styles/global.scss';
-import Photo from '../assets/images/me.jpg';
+import Photo from '../assets/images/profile-pic.png';
 
 
 const App = () => {
   return (
     <div>
       <header className="header">
-        <img className="header__img" src={Photo} alt="Jimmy Joel Pecho Malqui" />
-        <h1 className="header__title">JIMMY J. PECHO MALQUI</h1>
+        <h1><a href='index'>JIMMY P.</a></h1>
+        <ul className='header_menu'>
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Portfolio</a></li>
+          <li><a href="">News</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
       </header>
-      <main className="main">
+      <main>
+        <img className="header__img" src={Photo} alt="Jimmy Joel Pecho Malqui" />
+        <h2>Jimmy J. PECHO MALQUI</h2>
       </main>
-      <footer className="footer">
-          <li className="menu-item">Home</li>
-          <li className="menu-item">Galery</li>
-          <li className="menu-item">About</li>
-          <li className="menu-item">Contant</li>
-          <li className="menu-item">Portafolio</li>
-      </footer>
     </div>
   );
 }
