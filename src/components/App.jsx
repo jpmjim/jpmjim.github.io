@@ -1,13 +1,12 @@
 import React from 'react';
 import '../styles/global.scss';
-import Photo from '../assets/images/logo.png';
-
+import Photo from '../assets/images/log1.png';
 
 const App = () => {
   return (
     <div>
       <header className='header'>
-        <a  className='header__logo' href=""><img src={Photo} alt=""/></a>
+        <a  className='header__logo' href="#"><img src={Photo} alt=""/></a>
         <ul className='header__navigation'>
           <li><a href="">Home</a></li>
           <li><a href="">About</a></li>

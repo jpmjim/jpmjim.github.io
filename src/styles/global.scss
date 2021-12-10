@@ -1,4 +1,4 @@
-$color-background: #f8f8f8;
+$color-background: #fff;
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +7,7 @@ $color-background: #f8f8f8;
 html {
   font-size: 62.5%;
   font-family: 'Open Sans', sans-serif;
-  background-color: #ecf0f3;
+  background-color: $color-background;
 }
 
 .header {
@@ -41,8 +41,8 @@ html {
         font-weight: 600;
       }
       a:hover {
-        color: #ee322c;
-        border: #ee322c solid 2px;
+        color: #ee5b48;
+        border: #ee5b48 solid 2px;
         border-radius: 5px;
         padding: 5px;
       }
