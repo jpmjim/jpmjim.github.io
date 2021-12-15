@@ -1,2 +1,0 @@
-# jpmjim.github.io
-Presentación
