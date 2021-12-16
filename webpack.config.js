@@ -5,15 +5,16 @@ module.exports = {
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    file: 'bundle.js',
+    filename: 'bundle.js',
   },
+  mode: 'development',
   resolve: {
     extensions: ['.js', '.jsx'],
   },
   module: {
     rules: [
       {
-        text: /\.(js|jsx)$/,
+        test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         use: {
           loader: 'babel-loader'
