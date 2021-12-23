@@ -1,6 +1,45 @@
 @import './global.scss';
 
-img {
-  width: 80px;
+@mixin config-header {
+  background-color: $color-secundary;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
 }
+
+.header {
+  @include config-header();
+  &__logo {
+    width: 80px;
+    margin-top: 3px;
+    transition-duration: 1.2s;
+  }
+  &__list {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .header {
+    @include config-header();
+    &__logo {
+      width: 65px;
+    }
+    &__menu {
+      font-size: 35px;
+      font-weight: $font-semibold;
+      border: none;
+      background-color: transparent;
+    }
+    i:hover {
+      color: $color-primary;
+    }
+  }
+  
+}
+
 
