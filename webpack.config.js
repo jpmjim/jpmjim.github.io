@@ -23,6 +23,10 @@ module.exports = {
         }
       },
       {
+        test: /\.png/,
+        type: 'asset/resource',
+      },
+      {
         test: /\.html$/,
         use: [
           {
@@ -55,5 +59,4 @@ module.exports = {
     port: 3005,
     historyApiFallback: true,
   }
-
 }

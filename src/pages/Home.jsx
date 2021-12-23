@@ -1,10 +1,11 @@
 import React from 'react';
+import Header from '../components/Header';
 
 const Home = () => {
   return (
-    <div>
-      <h1>J2PM  PORTFOLIO</h1>
-    </div>
+    <React.StrictMode>
+      <Header />
+    </React.StrictMode> 
   );
 }
 

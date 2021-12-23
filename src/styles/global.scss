@@ -1,7 +1,29 @@
-$base-color: #85f1d6;
-$color: rgba(black, 0.88);
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&display=swap');
 
-body {
-  background-color: $base-color;
-  color: $color;
+
+$color-primary: #ee5b48;
+$font-initial: 62.5%;
+$font-primary: 'Oswald', sans-serif;
+$font-regular: 400;
+$font-medium: 500;
+$font-semibold: 600; 
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: $font-initial;
+  font-family: $font-primary;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
