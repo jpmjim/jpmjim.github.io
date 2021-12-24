@@ -1,0 +1,38 @@
+@import './global.scss';
+
+.container {
+  margin: 60px;
+  text-align: center;
+  img {
+    margin-bottom: 10px;
+    border-radius: 50%;
+    border: $color-primary 6px solid;
+  }
+  h1 {
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+    span {
+      color: $color-primary;
+    }
+  }
+  p {
+    margin-bottom: 10px;
+    font-size: 1.6rem;
+  }
+  ul {
+    margin: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 30px;
+    .bi-youtube:hover {
+      color: #f00;
+    }
+    .bi-twitter:hover{
+      color: #1d9bf0;
+    }
+    .bi-github:hover {
+      color: $color-primary;
+    }
+  }
+}

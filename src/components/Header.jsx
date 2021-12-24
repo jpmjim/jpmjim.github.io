@@ -5,7 +5,7 @@ import '../styles/Header.scss';
 const Header = () => {
   return (
     <nav className='header'>
-      <a href=""><img className='header__logo' src={Logo} alt=""/></a>
+      <a href="/"><img className='header__logo' src={Logo} alt=""/></a>
       <ul className='header__list'>
         <li><a href="/">Home</a></li>
         <li><a href="About">About</a></li>

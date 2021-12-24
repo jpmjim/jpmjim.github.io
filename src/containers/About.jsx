@@ -6,7 +6,9 @@ const About = () => {
   return (
     <React.StrictMode>
       <Header />
-      <h2>About</h2>
+      <main className='about'>
+        <h2>About</h2>
+      </main> 
     </React.StrictMode> 
     
   );

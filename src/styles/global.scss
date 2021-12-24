@@ -2,7 +2,8 @@
 
 
 $color-primary: #ee5b48;
-$color-secundary: #f8f8f8;
+$color-secundary: #fff;
+$color-background: #f8f8f8;
 $font-initial: 62.5%;
 $font-primary: 'Oswald', sans-serif;
 $font-regular: 400;
@@ -18,6 +19,7 @@ $font-semibold: 600;
 html {
   font-size: $font-initial;
   font-family: $font-primary;
+  background-color: $color-background;
 }
 
 ul {
