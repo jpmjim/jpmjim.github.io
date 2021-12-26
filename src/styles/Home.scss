@@ -1,18 +1,41 @@
 @import './global.scss';
 
+.wallpaper {
+  background-color: #5f45bb;
+  background-image: linear-gradient(169deg, rgba(0,0,0,1) 0%, rgba(227,51,51,1) 54%);
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: fixed;
+}
+
+.fond {
+  height: 100%;
+  width: 100%;
+  background-image: url('https://mocah.org/uploads/posts/536732-anonymous-wallpaper.jpg');
+  background-position: center;
+  background-size: cover;
+  opacity: 0.1;
+  position: fixed;
+}
+
+
 .container {
+  position: absolute;
   margin: 60px;
   text-align: center;
   img {
+    width: 175px;
     margin-bottom: 10px;
     border-radius: 50%;
-    border: $color-primary 6px solid;
+    // border: $color-primary 6px solid;
   }
   h1 {
     margin-bottom: 10px;
     font-size: 2.5rem;
     span {
-      color: $color-primary;
+      color: $color-secundary;
     }
   }
   p {
@@ -25,14 +48,17 @@
     align-items: center;
     justify-content: space-evenly;
     font-size: 30px;
-    .bi-youtube:hover {
-      color: #f00;
+    .bi:hover {
+      color: $color-secundary;
     }
-    .bi-twitter:hover{
-      color: #1d9bf0;
-    }
-    .bi-github:hover {
-      color: $color-primary;
-    }
+  //   .bi-youtube:hover {
+  //     color: #f00;
+  //   }
+  //   .bi-twitter:hover{
+  //     color: #1d9bf0;
+  //   }
+  //   .bi-github:hover {
+  //     color: $color-primary;
+  //   }
   }
 }

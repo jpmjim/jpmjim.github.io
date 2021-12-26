@@ -6,11 +6,11 @@ const Header = () => {
   return (
     <nav className='header'>
       <a href="/"><img className='header__logo' src={Logo} alt=""/></a>
-      <ul className='header__list'>
+      {/* <ul className='header__list'>
         <li><a href="/">Home</a></li>
         <li><a href="About">About</a></li>
         <li><a href="Portfolio">Portfolio</a></li>
-      </ul>
+      </ul> */}
       <button className='header__menu' href=""><i className="bi bi-list"></i></button>
     </nav>
   );

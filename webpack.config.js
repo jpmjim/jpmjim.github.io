@@ -23,6 +23,10 @@ module.exports = {
         }
       },
       {
+        test: /\.(jpe?g|png)$/i,
+        type: "asset",
+      },
+      {
         test: /\.png/,
         type: 'asset/resource',
       },
@@ -56,7 +60,7 @@ module.exports = {
   devServer: {
     allowedHosts: path.join(__dirname, 'dist'),
     compress: true,
-    port: 3005,
+    port: 3000,
     historyApiFallback: true,
   }
 }

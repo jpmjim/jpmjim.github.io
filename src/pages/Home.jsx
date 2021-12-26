@@ -1,12 +1,14 @@
 import React from 'react';
 import Header from '../components/Header';
 import '../styles/Home.scss';
-import Perfil from '../img/perfil.png';
+import Perfil from '../img/yo.jpg';
 
 const Home = () => {
   return (
     <React.StrictMode>
       <Header />
+      <div className='wallpaper'></div>
+      <div className='fond'></div>
       <div className='container'>
         <img src={Perfil} alt="" />
         <h1> Hola, soy <span>Jimmy J. Pecho Malqui</span></h1>
@@ -17,6 +19,7 @@ const Home = () => {
           <span><a className="bi bi-github" href=""></a></span>
         </ul>
       </div>
+      
     </React.StrictMode> 
   );
 }
